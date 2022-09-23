@@ -1,5 +1,5 @@
 {
-  "name": "plugin-template",
+  "name": "soundpad-plugin",
   "version": "0.0.1",
   "description": "A plugin template for Open Deck",
   "main": "src/index.ts",
