@@ -1,27 +1,27 @@
 {
-  "name": "Plugin Template",
-  "author": "Your Name",
-  "image": "image-here",
-  "plugin_uuid": "plugin-uuid-here",
+  "name": "SoundPad Plugin",
+  "author": "Open Deck",
+  "image": "image-here.png",
+  "plugin_uuid": "696de65d-4411-4384-8cb1-3855897b6771",
   "actions": [
     {
-      "name": "Say Hello by name",
-      "tooltip": "Say hello by name when called",
-      "icon": "image-here",
-      "uuid": "@PLUGIN-TEMPLATE/SAY_HELLO_BY_NAME",
+      "name": "Play sound by index",
+      "tooltip": "This action play song by index id",
+      "icon": "image-here.png",
+      "uuid": "69151279-17f5-4cce-9025-c437b4c9da1c",
       "fields": [
         {
-          "name": "name",
-          "label": "Name to call",
-          "type": "string"
+          "name": "index",
+          "label": "Index number",
+          "type": "number"
         }
       ]
     },
     {
-      "name": "Say Hello",
-      "tooltip": "Say hello when called",
-      "icon": "image-here",
-      "uuid": "@PLUGIN-TEMPLATE/SAY_HELLO",
+      "name": "Stop sound",
+      "tooltip": "This action stop playing sound",
+      "icon": "image-here.png",
+      "uuid": "70a675ce-87d3-4ebc-a797-059ffd66d103",
       "fields": []
     }
   ]

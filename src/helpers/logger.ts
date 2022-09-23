@@ -1,4 +1,4 @@
-const LOG_PREFIX = '[plugin-template]:';
+const LOG_PREFIX = '[soundpad-plugin]:';
 
 const log = (message: string | object) => {
   let messageFormatted = message;
