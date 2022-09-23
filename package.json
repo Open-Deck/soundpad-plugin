@@ -1,0 +1,27 @@
+{
+  "name": "plugin-template",
+  "version": "0.0.1",
+  "description": "A plugin template for Open Deck",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Open-Deck/plugin-template.git"
+  },
+  "keywords": [],
+  "author": "Matheus Azambuja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Open-Deck/plugin-template/issues"
+  },
+  "homepage": "https://github.com/Open-Deck/plugin-template#readme",
+  "dependencies": {
+    "@open-deck/tools": "0.0.4",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}

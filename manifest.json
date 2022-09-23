@@ -1,0 +1,28 @@
+{
+  "name": "Plugin Template",
+  "author": "Your Name",
+  "image": "image-here",
+  "plugin_uuid": "plugin-uuid-here",
+  "actions": [
+    {
+      "name": "Say Hello by name",
+      "tooltip": "Say hello by name when called",
+      "icon": "image-here",
+      "uuid": "@PLUGIN-TEMPLATE/SAY_HELLO_BY_NAME",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name to call",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Say Hello",
+      "tooltip": "Say hello when called",
+      "icon": "image-here",
+      "uuid": "@PLUGIN-TEMPLATE/SAY_HELLO",
+      "fields": []
+    }
+  ]
+}
