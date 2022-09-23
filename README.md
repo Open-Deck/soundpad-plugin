@@ -1,2 +1,3 @@
-# plugin-template
-A plugin template for Open Deck
+# soundpad-plugin
+
+A soundpad plugin for Open Deck
